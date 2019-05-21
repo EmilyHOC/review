@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        // 第三版
+        (function() {
+            var root = this;
+
+            var generateName = (function(){
+                var postfix = 0;
+                return function(descString){
+                    postfix++;
+                    return '@@' + descString + '_' + postfix
+                }
+            })()
+
+            var SymbolPolyfill = function Symbol(description) {
+
+                if (this instanceof SymbolPolyfill) throw new TypeError('Symbol is not a constructor');
+
+                var descString = description === undefined ? undefined : String(description)
+
+                var symbol = Object.create({
+                    toString: function() {
+                        return this.__Name__;
+                    }
+                })
+
+                Object.defineProperties(symbol, {
+                    '__Description__': {
+                        value: descString,
+                        writable: false,
+                        enumerable: false,
+                        configurable: false
+                    },
+                    '__Name__': {
+                        value: generateName(descString),
+                        writable: false,
+                        enumerable: false,
+                        configurable: false
+                    }
+                });
+
+                return symbol;
+            }
+
+
+            root.SymbolPolyfill = SymbolPolyfill;
+
+        })()
+
+        var a = SymbolPolyfill('foo');
+        var b = SymbolPolyfill('foo');
+
+        console.log(a ===  b); // false
+
+        var o = {};
+        o[a] = 'hello';
+        o[b] = 'hi';
+
+        console.log(o); // Object { "@@foo_1": "hello", "@@foo_2": "hi" }
+    </script>
+</body>
+</html>

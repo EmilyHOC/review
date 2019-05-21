@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>普通事件和事件绑定地区别</title>
+    <style>
+        #box,#box2{
+            width: 200px;
+            height: 200px;
+            background-color: #2B81AF;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+    </div>
+    <div id="box2"></div>
+<script>
+    var btn = document.getElementById('box')
+    btn.onclick = function () {
+        console.log(1)
+    }
+    btn.onclick = function () {
+        console.log(2)
+    }
+    //以上代码只会执行2
+    var btn2 = document.getElementById('box2')
+    btn2.addEventListener('click',function () {
+        console.log(1)
+    },false)
+    btn2.addEventListener("click",function () {
+        console.log(2)
+    },false)
+    //先执行1再执行2
+
+</script>
+</body>
+</html>

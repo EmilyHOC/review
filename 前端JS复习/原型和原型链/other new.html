@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function new1(func) {
+            var newObj = Object.create(func.prototype);    // 创建一个继承自func.prototype的新对象
+            console.log(newObj)
+            var returnObj = func.apply(newObj, Array.prototype.slice.call(arguments, 1));   //截取new1函数第二个以及第二个之后的参数,在newObj作用域内执行改造函数func
+            if ((typeof returnObj === "object" || typeof returnObj === "function") && ret !== null) {
+                return returnObj;
+            }   //如果传入参数中的构造函数执行后的returnObj是“对象”类型(比如new1(Object)),那么这个对象会取代newObj作为返回的对象
+            return newObj;
+        }
+        function person(name,age) {
+            this.name = name;
+            this.age = age
+        }
+        let obj = new1(person)
+        console.log(obj)
+    </script>
+</body>
+</html>

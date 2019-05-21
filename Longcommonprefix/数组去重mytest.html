@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+       // 在数组的原型对象里面增加方法，让数组去重1）返回没有重复的数组 2）返回重复的元素的新数组
+        Array.prototype.distinct=function () {
+          let ret=[]
+          for(let i=0;i<this.length;i++){
+            if(this.indexOf(this[i])!=i){
+              ret.push(this[i])  //查到重复的放到一个数组里
+              this.splice(i,1)   //在原来的数组里把重复的剪掉
+            }
+          }
+          return ret
+        }
+        let arr=[1,2,2,3,4,4,5]
+        console.log(arr.distinct())//把重复的放到一个数组里面
+        console.log(arr)
+    </script>
+</body>
+</html>

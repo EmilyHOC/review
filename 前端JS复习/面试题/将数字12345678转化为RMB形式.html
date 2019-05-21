@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        //思路：先将数字转为字符,str = str + ''
+        //利用反转函数，每三个字符加一个','最后一位不加，最后再反转回去
+
+        function myreverse(str){
+            str += '';
+            return str.split("").reverse().join("")
+        }
+        function toRMB(num){
+            var temp = '';
+            for(var i =1;i<myreverse(num).length+1;i++){
+                temp += myreverse(num)[i-1];
+                if(i%3 ==0&&i != myreverse(num).length){
+                    temp += ',';
+                }
+            }
+            return myreverse(temp)
+        }
+        console.log(toRMB(1234567))
+    </script>
+</body>
+</html>

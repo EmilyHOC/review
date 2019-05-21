@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="outer">
+        hello
+    </div>
+    <script>
+        Object.prototype.outerHTML = function () {
+            var innerCon = this.innerHTML //获取里面的内容
+            console.log(innerCon)
+           // outerCon = this.appendChild(innerCon);
+            // console.log(outerCon)
+        }
+        function $(id) {
+            return document.getElementById(id)
+        }
+        console.log($('outer').innerHTML)
+        console.log($('outer').outerHTML)
+        // console.log(document.getElementById('outer').outerHTML)
+    </script>
+</body>
+</html>

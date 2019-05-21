@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标识符</title>
+</head>
+<body>
+    <script>
+        var mySymbol = Symbol();
+        //第一种写法
+        var a = {};
+        a[mySymbol] = 'hello';//相当于唯一标识符
+
+        //第二种写法
+        var a = {
+            [mySymbol] :"Hello!"
+        }
+        //第三种写法
+        var a = {};
+        Object.defineProperty(a,mySymbol,{value:'hello'});
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+
+      function twoSum(nums, target) {
+        for(let i=0;i<nums.length;i++){
+          let mytarget = target - nums[i];
+          let mytarget2=nums.indexOf(mytarget)
+          if(i!=mytarget2&&mytarget2!=-1){
+            return [i,mytarget2]
+          }
+        }
+      };
+      let nums=[3,2,4];
+      let target=6;
+      console.log(twoSum(nums,target))
+    </script>
+</body>
+</html>

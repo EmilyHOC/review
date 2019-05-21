@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+      /**
+       * @param {number[]} digits
+       * @return {number[]}
+       */
+      var plusOne = function(digits) {
+        // if(digits[digits.length-1]!==9){
+        //   digits[digits.length-1] += 1
+        //   return digits
+        // }else{
+        //   if(digits[0]===9){
+        //     digits.unshift(1);
+        //     for(let i=1;i<digits.length;i++){
+        //       digits[i]=0;
+        //     }
+        //     return digits
+        //   }else{
+        //     ++digits[digits.length-2];
+        //     for(let i=1;i<digits.length;i++){
+        //       digits[i]=0;
+        //     }
+        //     return digits
+        //   }
+        //
+        // }
+
+
+        // let n=digits.indexOf(9)
+        // let j= digits.lastIndexOf(9)
+        // let length=digits.length;
+        // //最后一位是9,
+        // if(digits[digits.length-1]===9&&n!==digits.length){
+        //   if(length>1){
+        //     if(n===0){
+        //       //最高位进位
+        //       digits.unshift(1);
+        //       for(let i=1;i<digits.length;i++){
+        //         digits[i]=0;
+        //       }
+        //       return digits
+        //     }else {
+        //       //次高位是9
+        //       for(let i=j;i<digits.length;i++){
+        //         if(n==j){
+        //           digits[i]=0;
+        //         }else {
+        //           for(let i=j;i<digits.length;i++){
+        //             digits[i]=0;
+        //             ++digits[j-1]
+        //           }
+        //         }
+        //       }
+        //       ++digits[n-1];
+        //       return digits
+        //     }
+        //   }else {
+        //     return [1,0]
+        //   }
+        // }else {
+        //   digits[digits.length-1] += 1
+        //   return digits
+        // }
+
+        let n=parseInt(digits.join().replace(/,/g,""))
+        let result=n+1;
+    //    console.log(Number(result))
+        let toresult=result.toString().split("");
+        numArray=toresult.map((item)=>{
+          return parseInt(item)
+        })
+        return numArray
+
+      };
+      // console.log(plusOne([1,2,3]))//[1,2,4]
+      // console.log(plusOne([9]))//[1,0]
+      //  console.log(plusOne([8,9]))//[9,0]
+      let arr=[8,9,9]
+      console.log(plusOne(arr))
+       // console.log(plusOne[8,9,9,9])//[9,0,0]
+       // console.log(plusOne([3,9]))
+       // console.log(plusOne([9,9,9]))
+       //  console.log(plusOne([2,4,9,3,9]))//[2,4,9,4,1]
+    </script>
+</body>
+</html>

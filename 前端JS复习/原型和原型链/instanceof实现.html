@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function myInstanceof(left,right){
+            let prototype = right.prototype;
+            left = left.__proto__;
+            while (true){
+                if(left == null){
+                    return false
+                }else if(left == prototype){
+                    return true
+                }
+                left  = left.__proto__;
+            }
+        }
+        function Hello(name) {
+            this.name = name
+        }
+        let test = new Hello('张三');
+        let arr = new Array('33');
+        console.log(myInstanceof(arr,Array)) //true
+        console.log(myInstanceof(test,Hello)) //true
+        console.log(myInstanceof(arr,Hello))  //falsw
+    </script>
+</body>
+</html>

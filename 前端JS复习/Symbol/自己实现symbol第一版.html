@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        (
+            function () {
+                var root = this;
+                var SymbolPolyfill = function Symbol(des) {
+
+                    //实现特性第二点：Symbol函数不能使用New命令
+                    if (this instanceof SymbolPolyfill) throw new TypeError('Symbol is not a contructor');
+
+                    //实现特性五：如果Symbol的参数是一个对象，就会调用该对象的toStirng方法，将其转化为字符串，然后生成一个Symbol值
+                    var descString = des === undefined ? undefined : String(des)
+
+                    var symbol = Object.create(null)
+
+                    Object.defineProperties(symbol, {
+                        '__Description__': {
+                            value: descString,
+                            enumerable: false,
+                            configurable: false
+                        }
+
+                    });
+                    //实现特性第六点:因为调用该方法，返回的是一个新对象，两个对象之间，只要引用不相同，就会不同
+                    return symbol;
+
+                }
+                root.SymbolPolyfill = SymbolPolyfill
+            }
+        )();
+        const obj = {
+            toString(){
+                return 'abc';  //不许要传key值的对象，函数直接返回结果
+            }
+        };
+        const obj2= {
+            a:'abc'
+        }
+        const sym = SymbolPolyfill(obj)
+        console.log(sym) //{__Description__:"abc"}
+        const sym2 = SymbolPolyfill(obj2)
+        console.log(sym2)//{__Description__:"[object object]"}
+        const cy = SymbolPolyfill('ad')
+        console.log(cy) //{__Description__:"ad"}
+        const b = new SymbolPolyfill()//报错
+        console.log(b)
+    </script>
+</body>
+</html>

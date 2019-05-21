@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function _new(fun){
+            return function () {
+                let obj ={                    //创建一个空对象
+                    __proto__:fun.prototype  //实例的__proto__指向构造函数的prototype obj.__proto__=ClassA.prototype
+                }
+                fun.apply(obj,arguments)    //用新对象调用fun()
+                return obj
+            }
+
+        }
+
+        function person(name,age) {
+            this.name = name;
+            this.age = age
+        }
+        let obj = _new(person)('LL',100)  //相当于调用了_new()和person()
+        console.log(obj)
+    </script>
+</body>
+</html>

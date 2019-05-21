@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+      var maxSubArray = function(nums) {
+        //把所有元素都
+        //
+        // 加一遍，选最大的
+        for (let i = 1; i < nums.length; ++i) {
+          nums[i] = Math.max(nums[i], nums[i] + nums[i - 1])
+        }
+        //Math.max()里面不能直接跟数组，要把数组展开求最大值
+        //return Math.max(...nums)
+        return Math.max.apply(Math,nums)
+      };
+      maxSubArray([-2,1,-3,4,-1,3,9,3,-9,4])
+    </script>
+</body>
+</html>

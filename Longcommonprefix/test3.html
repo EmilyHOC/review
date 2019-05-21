@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+      var longestCommonPrefix = function(strs) {
+        if (strs.length === 0) return ''
+        if (strs.length === 1) return strs[0]
+        const [minStr, ...othres] = strs.sort((prev, next) => prev.length - next.length)
+        let result = '',
+          prefx = ''
+        for (j = 0; j < minStr.length; j++) {
+          prefx += minStr.charAt(j)
+          const reg  = new RegExp(`^${prefx}`)
+          if (!othres.every(item => reg.test(item))) break
+          if (prefx.length > result.length) result = prefx
+        }
+        return result
+      };
+      console.log(longestCommonPrefix(["flow","fliw"]))
+    </script>
+</body>
+</html>

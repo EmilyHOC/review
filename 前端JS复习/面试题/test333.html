@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function foo(){
+            foo.a = function () {
+                console.log(1)
+            }
+            this.a=function () {
+                console.log(2)
+            }
+            a = function () {
+                console.log(3)
+            }
+            var a = function () {
+                console.log(4)
+            }
+        }
+        foo.prototype.a = function () {
+            console.log(5)
+        }
+        foo.a = function () {
+            console.log(6)
+        }
+        foo.a();
+        var obj = new foo();
+        obj.a();
+        foo.a();
+    </script>
+</body>
+</html>

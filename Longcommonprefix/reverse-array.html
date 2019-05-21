@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>反转数字</title>
+</head>
+<body>
+    <script>
+        //开始这段这段代码不行的原因是反转之后的结果也不能溢出，所以必须要先反转再判定结果
+        var reverseArray = function (x) {
+          const MaxValue = 2 ** 31 - 1,
+           MinValue = -(2 ** 31)
+          let result
+           if(x<0){
+             let arr=[];
+             arr=x.toString().split("").reverse()
+             let i=arr.pop(arr.length-1)
+             arr.unshift(i)
+             result=arr.join().replace(/,/g,"")
+             if(result < MinValue){
+               return 0
+             }else{
+               return result
+             }
+           }else{
+             result=parseInt(x.toString().split("").reverse().join().replace(/,/g,""))
+             if(result > MaxValue){
+               return 0
+             }else{
+               return result
+             }
+           }
+         }
+
+        //这是老唐的答案
+        var reverse = function (x) {
+          const MaxValue = 2 ** 31 - 1,
+            MinValue = -(2 ** 31)
+
+          let absX = Math.abs(x) + '',
+            str = ''
+          for (var i = 1; i <= absX.length; i++) {
+            str += String(absX[absX.length - i])
+          }
+
+          let result = x > 0 ? Number(str) : 0 - Number(str)
+
+          if (result > MaxValue || result < MinValue) {
+            return 0
+          }
+          return result
+        }
+
+    </script>
+</body>
+</html>

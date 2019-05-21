@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script type="text/ecmascript-6">
+      Array.prototype.distinct=function(){
+        var reItem=[];
+        var i=0;
+        while(this[i]!=undefined){
+          if (this.indexOf(this[i])!=i) {
+            reItem.push(this[i]);
+            this.splice(i,1);
+          }
+          else{
+            i++;
+          }
+        }
+        return reItem;
+      }
+
+      var myArray=[1,1,1,12,12,12,'a','b','ba','ba','bc','"a"','e','1','2','2','"3"'];
+
+      console.log(myArray.distinct());//(6) [1, 1, 12, 12, "ba", "2"]
+      console.log(myArray); //[1, 12, "a", "b", "ba", "bc", ""a"", "e", "1", "2", ""3""]
+    </script>
+</body>
+</html>

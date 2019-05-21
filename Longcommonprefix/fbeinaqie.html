@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>斐波那契数列</title>
+</head>
+<body>
+    <script>
+      function fibo(n){
+        let num1 = 1,
+          num2 = 1;
+          num3 = 2;
+        if (n<2) {
+          num3 = 1
+        }
+        for( let i = 3;i<n+2;i++) {
+          num3 = num1+num2;
+          num1 = num2;
+          num2 = num3
+        }
+        return num3
+      }
+      console.log(fibo(3))//3  1，1，2，3，5，8
+      console.log(fibo(5))//8  前面的数字代表下标
+    </script>
+
+</body>
+</html>

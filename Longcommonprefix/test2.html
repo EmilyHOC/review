@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+      var longestCommonPrefix = function(strs) {
+        var firstStrs = strs[0];//firstStrs="flow"
+        var result = '';
+        if (!strs.length) {
+          return result;
+        }
+        for (var i = 0; i < firstStrs.length; i++) { //4次循环
+          for (var j = 1; j < strs.length; j++) {//1次循环,因为除了flow之外剩下一个
+            if (firstStrs[i] != strs[j][i]) {  //if f!==strs[1][0](fli的第一个字母)返回空
+              return result;
+            }
+          }
+          result += firstStrs[i];//不为空把相同的拼接到result数组里面
+        }
+        return result;
+      }
+      console.log(longestCommonPrefix (["flow","fli"]))
+    </script>
+</body>
+</html>
