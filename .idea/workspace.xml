@@ -56,6 +56,7 @@
       <change beforePath="$PROJECT_DIR$/../2.15/test2.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../2.15/头像1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../2.15/数组去重.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Longcommonprefix/Blog" beforeDir="false" afterPath="$PROJECT_DIR$/Longcommonprefix/Blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Longcommonprefix/Blog/Images/ES6/class/class-prototype.png" beforeDir="false" afterPath="$PROJECT_DIR$/Longcommonprefix/Blog/Images/ES6/class/class-prototype.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Longcommonprefix/Blog/Images/ES6/class/es5-prototype.png" beforeDir="false" afterPath="$PROJECT_DIR$/Longcommonprefix/Blog/Images/ES6/class/es5-prototype.png" afterDir="false" />
@@ -2834,7 +2835,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -2997,12 +2998,12 @@
       <workItem from="1557493395896" duration="655000" />
       <workItem from="1557494340177" duration="26623000" />
       <workItem from="1557624091637" duration="16101000" />
-      <workItem from="1558427107311" duration="7276000" />
+      <workItem from="1558427107311" duration="7545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83151000" />
+    <option name="totallyTimeSpent" value="83420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="1083" width="1872" height="1079" extended-state="0" />
