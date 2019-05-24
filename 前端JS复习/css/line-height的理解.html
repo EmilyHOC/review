@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>line-height的理解</title>
+    <style>
+        .box{
+            height: 128px;
+            background-color: #0D3349;
+            /*line-height: 128px; /*93以上有反应*/
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .box>img{
+            height: 96px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+        <div class="box">
+            <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1426331807,2460330022&fm=27&gp=0.jpg">
+        </div>
+</body>
+</html>

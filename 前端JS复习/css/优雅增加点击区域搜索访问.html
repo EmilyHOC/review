@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        input[type="search"]{
+            width:200px;
+            height: 40px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .icon-clear{
+            width: 16px;
+            height: 16px;
+            line-height: 15px;
+            margin:1px 0 0 -38px;
+            border:11px solid transparent;
+            border-radius: 50%;
+            background: #999;
+            color: white;
+            position: absolute;
+            visibility: hidden;
+            background-clip: padding-box;
+            text-align: center;
+        }
+        .icon-clear:before{
+            content: "x";
+        }
+        input:valid+.icon-clear{
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <input id="search" type="search" value="我是初始值" required>
+    <label for="search" class="icon-clear"></label>
+</body>
+</html>

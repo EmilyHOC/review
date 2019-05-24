@@ -2,6 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58a7b9ff-2e27-4b59-a3fb-9a14b7180e34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/absolute实现等高.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/borderstyle三道杠效果.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/border绘制图片上传框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/css等高布局1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/flex实现等高布局.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/grid实现等高布局.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/inline-block和基线baseline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/line-height的理解.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/margin 失效情形.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/table实现等高.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/transparent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/优雅增加点击区域搜索访问.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/双飞翼布局.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/图片间隙问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/多行文字垂直居中.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/负margin等高 布局.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../009_IT教程吧-JS高级/源码_课件/源码_课件/JSAdvance/work/01_基础总结深入/.idea/01_基础总结深入.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../009_IT教程吧-JS高级/源码_课件/源码_课件/JSAdvance/work/01_基础总结深入/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../009_IT教程吧-JS高级/源码_课件/源码_课件/JSAdvance/work/01_基础总结深入/.idea/misc.xml" beforeDir="false" />
@@ -56,7 +72,6 @@
       <change beforePath="$PROJECT_DIR$/../2.15/test2.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../2.15/头像1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../2.15/数组去重.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Longcommonprefix/Blog" beforeDir="false" afterPath="$PROJECT_DIR$/Longcommonprefix/Blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Longcommonprefix/Blog/Images/ES6/class/class-prototype.png" beforeDir="false" afterPath="$PROJECT_DIR$/Longcommonprefix/Blog/Images/ES6/class/class-prototype.png" afterDir="false" />
@@ -2727,95 +2742,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/作用域.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/test8.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/前端JS复习/css/margin居中.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/两栏登高布局.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="10" selection-start-line="21" selection-start-column="3" selection-end-line="30" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/flex实现两栏布局.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="29" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/test5.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/output.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/获取url后面的查询参数.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="11" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/url后面的查询参数.html">
+        <entry file="file://$PROJECT_DIR$/前端JS复习/css/inline-block和基线baseline.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="551">
-              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/setTimeout1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="1" />
+              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -2841,22 +2772,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/前端JS复习/Symbol/用同一个Symbol值.html" />
-        <option value="$PROJECT_DIR$/前端JS复习/Symbol/Symbol参数是一个对象.html" />
-        <option value="$PROJECT_DIR$/前端JS复习/Symbol/第二版实现Symbol.html" />
-        <option value="$PROJECT_DIR$/前端JS复习/Symbol/Symbol类型的实现.html" />
-        <option value="$PROJECT_DIR$/前端JS复习/Symbol/自己实现symbol第一版.html" />
-        <option value="$PROJECT_DIR$/前端JS复习/原型和原型链/instanceof判断原型.js" />
-        <option value="$PROJECT_DIR$/前端JS复习/原型和原型链/instanceof判断原型.html" />
-        <option value="$PROJECT_DIR$/前端JS复习/原型和原型链/instanceof实现.html" />
-        <option value="$PROJECT_DIR$/前端JS复习/原型和原型链/原型继承.html" />
-        <option value="$PROJECT_DIR$/前端JS复习/原型和原型链/构造函数继承.js" />
-        <option value="$PROJECT_DIR$/前端JS复习/原型和原型链/组合继承.js" />
-        <option value="$PROJECT_DIR$/前端JS复习/原型和原型链/寄生继承.js" />
-        <option value="$PROJECT_DIR$/前端JS复习/原型和原型链/es6 class.js" />
-        <option value="$PROJECT_DIR$/前端JS复习/原型和原型链/实现一个New.js" />
-        <option value="$PROJECT_DIR$/前端JS复习/原型和原型链/new.html" />
-        <option value="$PROJECT_DIR$/前端JS复习/原型和原型链/other new.html" />
         <option value="$PROJECT_DIR$/前端JS复习/原型和原型链/othernew.js" />
         <option value="$PROJECT_DIR$/前端JS复习/原型和原型链/es6.js" />
         <option value="$PROJECT_DIR$/前端JS复习/原型和原型链/原型链面试题.js" />
@@ -2892,14 +2807,30 @@
         <option value="$PROJECT_DIR$/前端JS复习/面试题/test8.html" />
         <option value="$PROJECT_DIR$/前端JS复习/面试题/test8.js" />
         <option value="$PROJECT_DIR$/前端JS复习/css/margin居中.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/margin 失效情形.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/borderstyle三道杠效果.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/border绘制图片上传框.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/transparent.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/优雅增加点击区域搜索访问.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/css等高布局1.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/负margin等高 布局.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/双飞翼布局.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/table实现等高.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/absolute实现等高.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/flex实现等高布局.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/grid实现等高布局.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/多行文字垂直居中.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/line-height的理解.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/图片间隙问题.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/inline-block和基线baseline.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="44" />
-    <option name="y" value="1083" />
+    <option name="x" value="-182" />
+    <option name="y" value="246" />
     <option name="width" value="1872" />
-    <option name="height" value="1079" />
+    <option name="height" value="1108" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -2909,6 +2840,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2921,11 +2853,16 @@
               <item name="5-6review" type="462c0819:PsiDirectoryNode" />
               <item name="前端JS复习" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ready" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5-6review" type="462c0819:PsiDirectoryNode" />
+              <item name="前端JS复习" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2955,17 +2892,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.test8.js">
+  <component name="RunManager" selected="JavaScript Debug.table实现等高.html">
+    <configuration name="css等高布局1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ready/前端JS复习/css/css等高布局1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="table实现等高.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ready/前端JS复习/css/table实现等高.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="test6.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-6review/前端JS复习/面试题/test6.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="url后面的查询参数.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-6review/前端JS复习/面试题/url后面的查询参数.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="去除字符串前后空格.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="去除字符串前后空格.js" working-dir="$PROJECT_DIR$/前端JS复习/面试题">
-      <method v="2" />
-    </configuration>
-    <configuration name="setTimeout1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="setTimeout1.js" working-dir="$PROJECT_DIR$/前端JS复习/面试题">
       <method v="2" />
     </configuration>
     <configuration name="test5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="test5.js" working-dir="$PROJECT_DIR$/前端JS复习/面试题">
@@ -2976,11 +2910,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.table实现等高.html" />
+        <item itemvalue="JavaScript Debug.css等高布局1.html" />
         <item itemvalue="Node.js.test8.js" />
         <item itemvalue="Node.js.test5.js" />
         <item itemvalue="JavaScript Debug.test6.html" />
-        <item itemvalue="Node.js.setTimeout1.js" />
-        <item itemvalue="JavaScript Debug.url后面的查询参数.html" />
       </list>
     </recent_temporary>
   </component>
@@ -2999,17 +2933,18 @@
       <workItem from="1557493395896" duration="655000" />
       <workItem from="1557494340177" duration="26623000" />
       <workItem from="1557624091637" duration="16101000" />
-      <workItem from="1558427107311" duration="7908000" />
+      <workItem from="1558427107311" duration="10385000" />
+      <workItem from="1558492151174" duration="22386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83783000" />
+    <option name="totallyTimeSpent" value="108646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="1083" width="1872" height="1079" extended-state="0" />
+    <frame x="-182" y="246" width="1872" height="1108" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18484187" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20528017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -3021,26 +2956,26 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295964" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18014705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18911637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5385406" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5381166" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32961783" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295964" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -3051,104 +2986,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Longcommonprefix/Blog/demos/ES6/module/ES6/vender/multiply.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Longcommonprefix/Blog/demos/ES6/module/ES6/vender/square.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/原型和原型链/instanceof判断原型.html" />
-    <entry file="file://$PROJECT_DIR$/前端JS复习/Symbol/Symbol作为标识符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="19" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/Symbol/Symbol参数是一个对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/Symbol/Symbol类型的实现.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/Symbol/用同一个Symbol值.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/Symbol/第二版实现Symbol.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/Symbol/自己实现symbol第一版.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/原型和原型链/构造函数继承.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/原型和原型链/组合继承.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/原型和原型链/原型继承.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/原型和原型链/实现一个New.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/原型和原型链/instanceof实现.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/原型和原型链/es6 class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/原型和原型链/other new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端JS复习/原型和原型链/寄生继承.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -3318,6 +3155,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/作用域.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/获取url后面的查询参数.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -3353,16 +3200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/作用域.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/test8.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -3370,10 +3207,150 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/margin 失效情形.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/多行文字垂直居中.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/负margin等高 布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/双飞翼布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/优雅增加点击区域搜索访问.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/transparent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/table实现等高.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/前端JS复习/css/margin居中.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="319">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/absolute实现等高.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/borderstyle三道杠效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/border绘制图片上传框.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/css等高布局1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/flex实现等高布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/grid实现等高布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/line-height的理解.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="22" selection-start-line="21" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/图片间隙问题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/inline-block和基线baseline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
