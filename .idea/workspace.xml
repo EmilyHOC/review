@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58a7b9ff-2e27-4b59-a3fb-9a14b7180e34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/前端JS复习/promise/promise的错误处理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端JS复习/promise/promise的题目.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端JS复习/promise/不是promise.all一条数据依赖另外的数据.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端JS复习/promise/同步任务变异步任务.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/css/css绘制加号按钮.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端JS复习/算法/最长公共子序列.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../009_IT教程吧-JS高级/源码_课件/源码_课件/JSAdvance/work/01_基础总结深入/.idea/01_基础总结深入.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../009_IT教程吧-JS高级/源码_课件/源码_课件/JSAdvance/work/01_基础总结深入/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../009_IT教程吧-JS高级/源码_课件/源码_课件/JSAdvance/work/01_基础总结深入/.idea/misc.xml" beforeDir="false" />
@@ -92,9 +90,6 @@
       <change beforePath="$PROJECT_DIR$/Longcommonprefix/Blog/demos/qunit/qunit-2.4.0.css" beforeDir="false" afterPath="$PROJECT_DIR$/Longcommonprefix/Blog/demos/qunit/qunit-2.4.0.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Longcommonprefix/Blog/demos/qunit/qunit-2.4.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/Longcommonprefix/Blog/demos/qunit/qunit-2.4.0.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Longcommonprefix/Blog/demos/xss/06.28_sina_XSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端JS复习/promise/Prmise.all.html" beforeDir="false" afterPath="$PROJECT_DIR$/前端JS复习/promise/Prmise.all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端JS复习/promise/promise-all-xhr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端JS复习/promise/一个请求的数据依赖另外一个请求.html" beforeDir="false" afterPath="$PROJECT_DIR$/前端JS复习/promise/一个请求的数据依赖另外一个请求.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BAT前端面试题/BAT前端面试题/BAT前端面试题/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../BAT前端面试题/BAT前端面试题/BAT前端面试题/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../React/React/code/react_test/prepare/testref.html" beforeDir="false" />
@@ -2732,12 +2727,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/前端JS复习/promise/同步任务变异步任务.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端JS复习/算法/最长公共子序列.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="765">
+              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/前端JS复习/css/css绘制加号按钮.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -2763,8 +2767,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/前端JS复习/面试题/testSetimeout.js" />
-        <option value="$PROJECT_DIR$/前端JS复习/面试题/作用域.js" />
         <option value="$PROJECT_DIR$/前端JS复习/面试题/代码实现outerHTML.html" />
         <option value="$PROJECT_DIR$/前端JS复习/面试题/两栏登高布局.html" />
         <option value="$PROJECT_DIR$/前端JS复习/面试题/flex实现两栏布局.html" />
@@ -2814,12 +2816,14 @@
         <option value="$PROJECT_DIR$/前端JS复习/promise/不是promise.all一条数据依赖另外的数据.html" />
         <option value="$PROJECT_DIR$/前端JS复习/promise/同步任务变异步任务.html" />
         <option value="$PROJECT_DIR$/前端JS复习/promise/promise的题目.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/算法/最长公共子序列.html" />
+        <option value="$PROJECT_DIR$/前端JS复习/css/css绘制加号按钮.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="118" />
-    <option name="y" value="560" />
+    <option name="x" value="320" />
+    <option name="y" value="141" />
     <option name="width" value="1227" />
     <option name="height" value="1075" />
   </component>
@@ -2847,7 +2851,7 @@
               <item name="ready" type="b2602c69:ProjectViewProjectNode" />
               <item name="5-6review" type="462c0819:PsiDirectoryNode" />
               <item name="前端JS复习" type="462c0819:PsiDirectoryNode" />
-              <item name="promise" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2930,15 +2934,19 @@
       <workItem from="1558775360183" duration="8830000" />
       <workItem from="1558884181023" duration="99000" />
       <workItem from="1559708754450" duration="4443000" />
-      <workItem from="1559786722011" duration="6239000" />
+      <workItem from="1559786722011" duration="7033000" />
+      <workItem from="1560178580984" duration="603000" />
+      <workItem from="1561081559179" duration="925000" />
+      <workItem from="1561165021528" duration="1000" />
+      <workItem from="1561192896685" duration="696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133822000" />
+    <option name="totallyTimeSpent" value="136841000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="118" y="560" width="1227" height="1075" extended-state="0" />
+    <frame x="320" y="141" width="1227" height="1075" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30388108" />
@@ -2953,7 +2961,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.256487" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.15968063" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -2983,23 +2991,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/testSetimeout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/统计字符串字母出现最多的次数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端JS复习/面试题/原生js实现tab栏.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -3301,9 +3292,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端JS复习/promise/promise-all-xhr.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/promise/promise-all-xhr.js" />
     <entry file="file://$PROJECT_DIR$/前端JS复习/promise/promise-all-timer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -3355,8 +3344,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/前端JS复习/promise/同步任务变异步任务.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state relative-caret-position="418">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/算法/最长公共子序列.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端JS复习/css/css绘制加号按钮.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
