@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var obj = {};
+        let dep =[]
+        Object.defineProperty(obj, 'data', {
+            get: function(){
+                dep.push(window.target)
+                console.log(dep)
+                return data;
+
+            },
+            set(newValue) {
+                data = newValue;
+                console.log(newValue)
+            }
+        })
+        obj.data = 2
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .gao2{
+            margin: 100px auto;
+            width: 466px;
+            border:1px solid #ccc;
+            perspective: 1000px; /*透视，达到3D效果*/
+        }
+        .gao{
+            background: #ccc;
+            width: 466px;
+            height: 400px;
+            transform-origin: right; /*动画基点*/
+            -moz-animation: name 0.5s;
+            animation: name 8s;
+        }
+        /*定义动画*/
+        @-webkit-keyframes name {
+            0%{
+                /*动画开始*/
+                transform: rotateY(90deg);
+            }
+            100%{
+                transform: rotateY(180deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gao2">
+        <div class="gao">
+            <img src="../img/3.gif">
+        </div>
+    </div>
+</body>
+</html>
